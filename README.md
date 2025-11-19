@@ -24,7 +24,7 @@ Palisades and Eaton fire perimeter data were sourced from [LA County's GIS hub](
 
 Accessed November 15, 2025.
 
-#### References
+## References
 
 **Data:**
 
@@ -37,7 +37,7 @@ Los Angeles County Enterprise GIS. (2025). Palisades and Eaton Dissolved Fire Pe
 - [Common Landsat Band Combinations (USGS)](https://www.usgs.gov/media/images/common-landsat-band-combinations)
 - [How to Interpret a False-Color Satellite Image (NASA)](https://earthobservatory.nasa.gov/features/FalseColor)
 - [True Color Imagery (NOAA)](https://coastwatch.noaa.gov/cwn/product-families/true-color-imagery.html)
-- 
+  
 
 ## Repository Structure
 ```

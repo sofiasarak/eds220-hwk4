@@ -32,7 +32,7 @@ Earth Resources Observation and Science (EROS) Center. (2020). Landsat 8–9 Ope
 
 Los Angeles County Enterprise GIS. (2025). Palisades and Eaton Dissolved Fire Perimeters [Dataset]. Los Angeles County. https://egis-lacounty.hub.arcgis.com/maps/ad51845ea5fb4eb483bc2a7c38b2370c/about
 
-**Education Resources (used for understanding):**
+**Educational Resources (used for understanding):**
 - [Band designations for the Landsat satellites (USGS)](https://www.usgs.gov/faqs/what-are-band-designations-landsat-satellites)
 - [Common Landsat Band Combinations (USGS)](https://www.usgs.gov/media/images/common-landsat-band-combinations)
 - [How to Interpret a False-Color Satellite Image (NASA)](https://earthobservatory.nasa.gov/features/FalseColor)

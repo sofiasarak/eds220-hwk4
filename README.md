@@ -14,15 +14,11 @@ For more information on the homework assignment itself (including all of the dat
 
 The dataset used in this analysis is a simplified collection of bands (red, green, blue, near-infrared and shortwave infrared) from the Landsat Collection 2 Level-2 atmospherically corrected surface reflectance data, collected by the Landsat 8 satellite. Landsat data is provided by a series of Earth-observing satellites jointly managed by NASA and the U.S. Geological Survey (USGS), and stores a significant amount of reflectance information about the Earth's surface.
 
-The data was retrieved from the [Microsoft Planetary Computer data catalogue](https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2) catalogue and clipped to an area surrounding the fire perimeters by the [EDS220](https://meds-eds-220.github.io/MEDS-eds-220-course/) course team.
-
-Accessed November 15, 2025.
+The data was retrieved from the [Microsoft Planetary Computer data catalogue](https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2) catalogue and clipped to an area surrounding the fire perimeters by the [EDS220](https://meds-eds-220.github.io/MEDS-eds-220-course/) course team. Accessed November 15, 2025.
 
 **Palisades and Eaton fire perimeter:**
 
-Palisades and Eaton fire perimeter data were sourced from [LA County's GIS hub](https://egis-lacounty.hub.arcgis.com/maps/ad51845ea5fb4eb483bc2a7c38b2370c/about). It contains dissolved fire boundaries for Eaton and Palisades fires. It is a public data set, published January 21, 2025 and last updated on February 26, 2025
-
-Accessed November 15, 2025.
+Palisades and Eaton fire perimeter data were sourced from [LA County's GIS hub](https://egis-lacounty.hub.arcgis.com/maps/ad51845ea5fb4eb483bc2a7c38b2370c/about). It contains dissolved fire boundaries for Eaton and Palisades fires. It is a public data set, published January 21, 2025 and last updated on February 26, 2025. Accessed November 15, 2025.
 
 ## References
 
@@ -41,22 +37,24 @@ Los Angeles County Enterprise GIS. (2025). Palisades and Eaton Dissolved Fire Pe
 
 ## Repository Structure
 ```
-├── data
-│   ├── Eaton_Perimeter_20250121
-│   │   ├── Eaton_Perimeter_20250121.cpg
-│   │   ├── Eaton_Perimeter_20250121.dbf
-│   │   ├── Eaton_Perimeter_20250121.prj
-│   │   ├── Eaton_Perimeter_20250121.shp
-│   │   └── Eaton_Perimeter_20250121.shx
-│   ├── landsat8-2025-02-23-palisades-eaton.nc
-│   └── Palisades_Perimeter_20250121
-│       ├── Palisades_Perimeter_20250121.cpg
-│       ├── Palisades_Perimeter_20250121.dbf
-│       ├── Palisades_Perimeter_20250121.prj
-│       ├── Palisades_Perimeter_20250121.shp
-│       └── Palisades_Perimeter_20250121.shx
+
 ├── hwk4-task2-false-color-SARAK.ipynb
-└── README.md
+├── README.md
+└── .gitignore
+│   ├──data
+|       ├── Eaton_Perimeter_20250121
+│       │ ├── Eaton_Perimeter_20250121.cpg
+│       │ ├── Eaton_Perimeter_20250121.dbf
+│       │ ├── Eaton_Perimeter_20250121.prj
+│       │ ├── Eaton_Perimeter_20250121.shp
+│       │ └── Eaton_Perimeter_20250121.shx
+│       ├──landsat8-2025-02-23-palisades-eaton.nc
+│       └── Palisades_Perimeter_20250121
+│         ├── Palisades_Perimeter_20250121.cpg
+│         ├── Palisades_Perimeter_20250121.dbf
+│         ├── Palisades_Perimeter_20250121.prj
+│         ├── Palisades_Perimeter_20250121.shp
+│         └── Palisades_Perimeter_20250121.shx
 
 ```
 ## Course Information
